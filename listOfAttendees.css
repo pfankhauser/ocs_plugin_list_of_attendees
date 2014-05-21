@@ -1,0 +1,19 @@
+ul#listOfAttendees {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul#listOfAttendees li {
+	margin-bottom: 1em;
+}
+
+ul#listOfAttendees img {
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+ul#listOfAttendees .separator {
+	clear: both;
+	border-bottom: 1px solid #D9D9D9;
+}

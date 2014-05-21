@@ -1,0 +1,21 @@
+================================
+=== OCS List of Attendees Plugin
+=== Version: $Id$
+=== Author: Péter Fankhauser <pfankhauser@ethz.ch>
+================================
+
+About
+-----
+This plugin allows to show a list of attendees of a conference.
+
+License
+-------
+This plugin is licensed under the GNU General Public License v2. See the file COPYING for the complete terms of this license.
+
+System Requirements
+-------------------
+Same requirements as the OCS 2.3 core.
+
+Configuration
+------------
+Add the attendees list page in the navigation bar by adding a new navbar item in "Website Management > Website Headers, Footers, Lists and Navigation Bar > 3.4 Navigation Bar" with label name "plugins.generic.listOfAttendees.navigationTitle" and URL "/ocs/index.php/dw2014/dw2014/attendees" (adapt the URL to your installation setup).
